@@ -52,3 +52,32 @@ for (var i = 0; i < names.length; i++) {
   people.push(new Person(names[i], ages[i], Math.random()));
   console.log('Just made ' + names[i]);
 }
+
+var newNav = ['Facebook', 'Instagram', 'Twitter'];
+
+var navLinks = document.getElementsByClassName('nav-link');
+for (var i = 0; i < navLinks.length; i++) {
+  navLinks[i].innerText = newNav[i];
+}
+
+var user = {
+  authenticated: true
+};
+
+var navList = document.getElementsByTagName('ul')[0];
+var newListItem = document.createElement('li');
+var newLink = document.createElement('a');
+newLink.setAttribute('href', 'http://news.ycombinator.com');
+newLink.innerText = 'Hacker News';
+newListItem.appendChild(newLink);
+newListItem.setAttribute('class', 'some-list-class');
+navList.appendChild(newListItem);
+
+var hours = ['8am', '9am', ...]; // this is not functioning js
+
+function () {
+  for (var i = 0; i < hours.length; i++) {
+    // do some operation
+    // this operation should push new cookie sales for every hour
+  }
+}
