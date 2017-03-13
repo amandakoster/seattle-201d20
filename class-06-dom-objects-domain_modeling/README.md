@@ -1,8 +1,6 @@
 <a id="top"></a>
 # Today's Plan: Week 2, Monday Lecture
 
-- Announcements
-  - Quiz 2 will be published after class. It will be due at 11:59p tomorrow night.
 - Go over student surveys *[15 minutes]*
 - [Code Review](#codereview) *[30 minutes]*
 - [Go over the assigned readings](#readings) *[60 minutes]*
@@ -20,7 +18,7 @@
 <a id="codereview"></a>
 ### Code Review
 
-- How did the lab go this morning? Let's go over it.
+- We'll do code reviews to begin class most days
 
 [-top-](#top)
 
