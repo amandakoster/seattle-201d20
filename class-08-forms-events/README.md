@@ -13,6 +13,11 @@
 - HTML Chapter 14: "Lists, Tables & Forms" (CSS)
 - JS Chapter 6: "Events"
 
+# Resources
+
+- [HTML5 Input Types](https://robertnyman.com/html5/forms/input-types.html)
+
+
 ---
 
 <a id="codereview"></a>
