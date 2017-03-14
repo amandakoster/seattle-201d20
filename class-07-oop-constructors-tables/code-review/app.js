@@ -35,6 +35,7 @@ var firstAndPike = {
     this.salesArr.push(total); // adds the total number of sales for the day to the sales array
   },
   createListItems: function(){ // create the li elements and append them to a specified ul element
+    this.cookiesSold();
     var newHeading = document.createElement('h2'); // print the name of the store to the page and do it before the for loop
     body.appendChild(newHeading); // append the h2 to the body
     newHeading.innerText = this.name; // create text for the h2
@@ -48,5 +49,4 @@ var firstAndPike = {
   }
 };
 
-firstAndPike.cookiesSold(); // run the cookies sold method and generate sales for the day.
 firstAndPike.createListItems();
