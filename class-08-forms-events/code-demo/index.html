@@ -3,13 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Form Demo</title>
+    <style media="screen">
+      ul {
+        list-style-image: url("https://assets-cdn.github.com/favicon.ico");
+      }
+    </style>
   </head>
   <body>
-    <form action="index.html" method="get">
+    <table>
+
+    </table>
+
+    <form action="index.html" method="get" id="the-form">
       <ul>
         <li>
           <label for="firstname">First Name:</label>
-          <input type="text" maxlength="10" placeholder="First Name" value="" name="firstname" required/>
+          <input type="text" maxlength="10" placeholder="First Name" value="" name="firstname" value="Jane Smith" id="firstname"/>
         </li>
         <li>
           <label for="password">Password:</label>
@@ -42,10 +51,11 @@
           <input type="hidden" name="" value="some-nefarious-key-for-tracking-user-activity"/>
         </li>
         <li>
-          <input type="submit" value="Something Different" />
+          <input type="submit" value="Submit the Form"/>
         </li>
       </ul>
       <!-- <button>Click Me</button> -->
     </form>
+    <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
