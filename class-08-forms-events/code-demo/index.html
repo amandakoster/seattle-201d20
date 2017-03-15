@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <form action="index.html" method="get">
+      <ul>
+        <li>
+          <label for="firstname">First Name:</label>
+          <input type="text" maxlength="10" placeholder="First Name" value="" name="firstname" required/>
+        </li>
+        <li>
+          <label for="password">Password:</label>
+          <input type="password" name="password" />
+        </li>
+        <li>
+          <label for="comments">Comments: </label>
+          <textarea name="comments" placeholder="some placeholder text"></textarea>
+        </li>
+        <li>
+          <input type="radio" name="some-choice" value="apples" checked/> Apples
+          <input type="radio" name="some-choice" value="oranges"/> Oranges
+          <input type="radio" name="some-choice" value="bananas"/> Bananas
+        </li>
+        <li>
+          <input type="checkbox" name="multichoice" value="steak" checked/> Steak
+          <input type="checkbox" name="multichoice" value="chicken"/> Chicken
+          <input type="checkbox" name="multichoice" value="lamb"/> Lamb
+        </li>
+        <li>
+          <select name="state" multiple="multiple">
+            <option value="washington">Washington</option>
+            <option value="new-york" selected>New York</option>
+            <option value="california">California</option>
+            <option value="wisconsin">Wisconsin</option>
+          </select>
+        </li>
+        <li>
+          <input type="file" name="" />
+          <input type="hidden" name="" value="some-nefarious-key-for-tracking-user-activity"/>
+        </li>
+        <li>
+          <input type="submit" value="Something Different" />
+        </li>
+      </ul>
+      <!-- <button>Click Me</button> -->
+    </form>
+  </body>
+</html>
