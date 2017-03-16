@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter Clone</title>
+    <script src="https://use.fontawesome.com/4d0cb8d848.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav id="top-nav">
+        <div class="nav-btn"><i class="fa fa-bed" aria-hidden="true"></i> Home</div>
+        <div class="nav-btn"><i class="fa fa-bolt" aria-hidden="true"></i> Moments</div>
+        <div class="nav-btn"><i class="fa fa-bullhorn" aria-hidden="true"></i> Notifications</div>
+        <div class="nav-btn"><i class="fa fa-envelope" aria-hidden="true"></i> Messages</div>
+      </nav>
+    </header>
+    <main>
+      <section id="left">
+        <section id="profile-box">
+          <div id="bkg-img">
+            <img src="http://placehold.it/200x100"/>
+          </div>
+          <div id="profile-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <img src="http://placehold.it/72x72" id="profile-img"/>
+        </section>
+        <section id="trend-box">
+          <h3>Trends</h3>
+          <ul>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+            <li class="trend"><a class="blue-txt" href="#">#YOLO</a></li>
+          </ul>
+        </section>
+      </section>
+      <section id="center">
+        <section id="tweet-form">
+          <div id="my-face">
+            <img src="http://placehold.it/32x32">
+          </div>
+          <form id="actual-form">
+            <div id="form-inner">
+              <textarea name="tweet" id="tweet" placeholder="What's happening?"></textarea>
+              <button type="submit" id="tweet-btn"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Tweet</button>
+            </div>
+          </form>
+          <div class="clearfix"></div>
+          <div class="form-icons">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+            <i class="fa fa-picture-o" aria-hidden="true"></i>
+            <i class="fa fa-list-ul" aria-hidden="true"></i>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </div>
+        </section>
+      </section>
+      <section id="right"></section>
+    </main>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
