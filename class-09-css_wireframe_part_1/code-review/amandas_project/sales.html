@@ -1,0 +1,42 @@
+<!--So, in addition to building an application that calculates daily sales projections for each location (in a file called sales.html), you also need to create a pubic-facing page (in a file called index.html) that is colorful, eye-catching, readable, useful, informative... and ultimately of a quality ready for use on T-shirts, stickers, coffee mugs, cookie bags, napkins, and so on.-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body id="body">
+
+        <form method="get" id="the-form">
+            <fieldset>
+            <li>
+             <label for="storeName">Store Name:</label>
+             <input type="text" maxlength="15"  name="storeName" id="storename" required/>
+           </li>
+
+           <li>
+             <label for="minCust">Min.Customers Per Day:</label>
+             <input type="number" name="minCust" id="minCust" min="0" required />
+           </li>
+
+           <li>
+             <label for="maxCust">Max. Customers Per Day:</label>
+             <input type="number" name="maxCust" id="maxCust" min="1" required />
+           </li>
+
+           <li>
+             <label for="avgCookieSale"></label>Avg. Cookies per Customer:
+             <input type="number" name="aveCookies" id="submit" step="0.01" min="1" required />
+           </li>
+
+           <li><button name="button" type="submit">Submit</button>
+           </li>
+         </fieldset>
+      </form>
+
+  </body>
+  <script src="app.js">
+  </script>
+</html>
