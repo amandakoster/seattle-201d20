@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title></title>
+    <style media="screen">
+      .carousel-nav {
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Pat's Salmon Cookies Sales Table</h2>
+    <form id="Form">
+      <fieldset>
+        <legend id="legendInput">Add A Store</legend>
+          <label>Store Name:</label><br />
+          <input type="text" name="storeName" id="store-name">
+          <br />
+          <label>Minimun Number of Custermer:</label><br />
+          <input type="number" name="minCust" require />
+          <br />
+          <label>Maximun Number of Custermer:</label><br />
+          <input type="number" name="maxCust" require />
+          <br />
+          <label>Average Number of Cookie Per Custermer:</label><br />
+          <input type="number" name="avegCookie" require />
+          <br />
+          <br />
+          <input type="submit" name="submit"/>
+        </fieldset>
+    </form>
+    <br /><br />
+    <br />
+    <button id="buttonId">
+      <a href="index.html" id="back">Go Back</a>
+    </button>
+
+    <div class="carousel-nav" direction="left">
+      <h2>LEFT</h2>
+    </div>
+    <div class="carousel-nav" direction="right">
+      <h2>RIGHT</h2>
+    </div>
+    <script src='app.js'></script>
+  </body>
+</html>
